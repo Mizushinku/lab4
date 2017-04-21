@@ -1,0 +1,15 @@
+A :
+	the encoded identifier for the function "double average (double * n1, double & n2)" is "_Z7averagePdRd".
+	the encoded identifier for the function "int average(int n1, float n2)" is "_Z7averageif".
+
+B :
+	output :
+
+		1 8
+		4 8
+		4 8
+		8 8
+	
+	reason :
+
+		指標儲存的是記憶體位置,在64位元作業系統下,需要8byte空間,所以不同type的指標大小都是8
